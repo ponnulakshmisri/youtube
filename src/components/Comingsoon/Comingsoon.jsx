@@ -7,6 +7,8 @@ function Comingsoon() {
         <img src={img} className="coming-soon" />
         <div className="coming-soon-word">We Will be back with something</div>
         <div className="coming-soon-word">Amazing! Coming Soon...!!</div>
+
+        
       </div>
     </>
   );

@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    
        <First />
        <DataFetch />
     </>
