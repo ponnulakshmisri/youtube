@@ -1,0 +1,25 @@
+.navbar-splitter {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  z-index: 1001;
+}
+.navbar-second-part {
+  width: calc(100% - 250px);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-first-part,
+.navbar-second-part {
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.profile-control {
+  position: fixed;
+  right: 0;
+  top: 60px;
+  z-index: 1005;
+}

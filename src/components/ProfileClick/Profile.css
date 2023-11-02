@@ -1,0 +1,57 @@
+.Subscription-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  height: 550px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 300px;
+}
+.icon-circle1 {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  background-color:hotpink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.main-container {
+  margin-top: 65px;
+  position: fixed;
+  z-index: 0;
+}
+.your-channel {
+  border-bottom: 1px solid black;
+  margin: 10px;
+}
+
+.icon-channel {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.scroll-container1 {
+  width: 300px;
+  height: 500px;
+  overflow-y: auto;
+}
+.profile-img {
+    height: 100%; /* Adjust the height as needed */
+  object-fit: cover; /* Resize and crop the image to fit the container */
+  border-radius: 50%; /* Make the image circular */
+  display: block; /* Remove any extra spacing around the image */
+}

@@ -1,0 +1,72 @@
+.items-center {
+    display: grid;
+    place-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.payment-container{
+    color: white;
+    width: 600px;
+
+}
+
+.payment-title{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.payment-imgcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0; 
+}
+.prepaid-payment{
+    margin-bottom: 30px;
+}
+
+.payment-member{
+    margin-bottom: 20px;
+}
+.payment-image img {
+    max-width: 100%;
+        height: auto; 
+}
+
+strong{
+    font-weight: bold;
+}
+.flex-center {
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+.subscription-container{
+    margin-bottom: 20px;
+}
+.monthlypayment-plan
+{
+    width: 100%;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.best-value{
+    color: green;
+    margin-left: 5px;
+    font-size:12px;
+}
+.twelve-month{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding {
+    padding: 20px 20px;
+}

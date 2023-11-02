@@ -1,0 +1,132 @@
+.you-icon {
+  width: 120px;
+  height: 70px;
+}
+.long-search-bar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #f0f0f0; 
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+.navbar{
+ 
+    margin-right: 10px; 
+    width: 30px;
+    height: 40px;
+}
+.header{
+
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      height: 40px;
+      justify-content: space-between;
+      background-color: white;
+      position: fixed; 
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+  } 
+
+.header-left{
+    
+    display: flex;
+  
+    align-items: center;
+}
+
+
+.header-mid {
+  display: flex;
+  
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 732px;
+  align-items: center;
+  width: 320px; 
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 40px;
+  height: 40px; 
+}
+.header-mid > input {
+  font-size: 15px;
+  flex: 1;
+  border: none;
+  padding-left: 9px;
+}
+.header-mid .line {
+  width: 1px; 
+  height: 40px; 
+  background-color: #ccc; 
+  margin-right: 10px; 
+}
+.header-mid > input:focus {
+  outline: none;
+}
+
+.header-mid > input::placeholder {
+  letter-spacing: 1px; 
+  font-weight: 200;
+}
+.search-icon {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.header-icon{
+  width: 50px;
+}
+.header-right {
+  display: flex;
+  width: 160px; 
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px; 
+}
+.sign-in-container{
+ border: 1px solid black;
+ padding: 5px;
+ gap: 10px;
+ display: flex;
+ color:dodgerblue;
+ align-items: center;
+ border-radius: 10px;
+}
+
+.letter-styling {
+  display: flex;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  color: white;
+  background-color: hotpink;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.name-container {
+  display: flex;
+ 
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-profile-img{
+  width: 50px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}

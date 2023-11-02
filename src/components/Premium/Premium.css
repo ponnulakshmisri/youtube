@@ -1,0 +1,43 @@
+.premium-maincontainer
+{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:  url(https://www.gstatic.com/youtube/img/promos/growth/premium_lp2_header_background_light_tablet_v1_5760x9600.jpg);
+}
+.premium-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 100px;
+}
+.premium-title{
+    font-size: 50px;
+    color: #0f0f0f;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.premium-btn{
+    border-radius: 20px;
+    background-color: deepskyblue;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.next-line{
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.premium-sub{
+   font-size: 20px; 
+}
+.premium-res{
+    margin-top: 40px;
+    color: deepskyblue;
+}
+.premium-span {
+    margin-left: 10px;
+    color: deepskyblue;
+    margin-bottom: 40px;
+}

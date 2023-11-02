@@ -1,0 +1,289 @@
+/* 
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .login-box {
+    border: 1px solid #dadce0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 450px;
+    @media (max-width: 768px) {
+        width: 80%; 
+        .forgot-password-link, .create-account-link,.learnmore1 {
+            margin-left: 8px;
+        }
+        
+      }
+  } 
+  .inputfield {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputfield placeholder {
+    text-align: left;
+  }
+input {
+    all: initial;
+}
+  p{
+    margin-left: 5px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px; 
+  }
+  
+  .forgot-password-link,
+  .create-account-link {
+    margin-bottom: 15px;
+    margin-left: 41px;
+    text-align: initial;
+    color: rgb(26,115,232);;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px; 
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  }
+
+  .learnmore1{
+    margin-left: 40px;
+    text-align: initial;
+    color: rgb(26,115,232);;
+    font-size: 14px;
+    padding: 0px;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  }
+  .logo {
+    height: 50px;
+    width: 80px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .create-account-link {
+    margin-right: 10px; 
+  }
+.signin{
+    color: rgb(32,33,36);
+    font-size: 24px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.3333;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 1px;
+}
+.para-signin{
+    padding-bottom: 1px;
+    padding-top: 7px;
+    color: rgb(32,33,36);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
+.learnmore{
+    margin-top: 40px;
+    padding-left: 30px;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+       cursor: text;
+       align-items: center;
+    position: relative;
+    border-radius: 4px;
+    width: 368px;
+    height: 60px;
+}
+
+.signup-btn{
+  border: 1px solid;
+  border-radius: 5px;
+  background-color:dodgerblue;
+  padding: 10px;
+  color: white;
+}
+.error-message {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+} */
+
+/* LoginComponent.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  border: 1px solid #dadce0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 450px;
+}
+
+@media (max-width: 768px) {
+  .login-box {
+    width: 80%;
+  }
+
+  .forgot-password-link,
+  .create-account-link,
+  .learnmore1 {
+    margin-left: 8px;
+  }
+}
+
+.inputfield {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputfield input {
+  text-align: left; /* Move text within input field to the left */
+}
+
+p {
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.forgot-password-link,
+.create-account-link {
+  margin-bottom: 15px;
+  margin-left: 41px;
+  text-align: initial;
+  color: rgb(26, 115, 232);
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.learnmore1 {
+  margin-left: 40px;
+  text-align: initial;
+  color: rgb(26, 115, 232);
+  font-size: 14px;
+  padding: 0px;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.logo {
+  height: 50px;
+  width: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.create-account-link {
+  margin-right: 10px; /* Add some spacing between the elements */
+}
+
+.signin {
+  color: rgb(32, 33, 36);
+  font-size: 24px;
+  font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.3333;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 1px;
+}
+
+.para-signin {
+  padding-bottom: 1px;
+  padding-top: 7px;
+  color: rgb(32, 33, 36);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.learnmore {
+  margin-top: 40px;
+  padding-left: 30px;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  width: 368px;
+  height: 60px;
+}
+
+.signup-btn {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  padding: 10px;
+  color: white;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}

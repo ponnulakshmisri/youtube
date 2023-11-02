@@ -1,0 +1,29 @@
+.sidebar {
+  top: 50px;
+  flex: 2;
+  width: 250px;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  height: 100vh;
+  background-color: white;
+}
+.divider {
+  flex: 1;
+  height: 1px;
+  column-gap: 10px;
+  background-color: #ccc;
+}
+
+.scroll-container {
+  width: 250px;
+  height: calc(100vh - 70px);
+
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.scroll-content {
+  /* padding: 10px; */
+}
